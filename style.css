@@ -1,6 +1,9 @@
 a:hover {
 	text-decoration: none;
 }
+span.op {
+	color: DarkOrange;
+}
 @media (prefers-color-scheme: dark) {
 	body {
 		background: Black;
@@ -11,5 +14,8 @@ a:hover {
 	}
 	a:visited {
 		color: MediumPurple;
+	}
+	span.op {
+		color: Orange;
 	}
 }
