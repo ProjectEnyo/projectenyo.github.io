@@ -1,7 +1,10 @@
-let pingUrl = "https://eu.mc-api.net/v3/server/ping/pvp.projectenyo.eu"
+let serverIP = "pvp.projectenyo.eu"
+let serverPort = "25565"
+let api = "https://eu.mc-api.net/v3/server/ping/"
 
 window.addEventListener('load', function() {
-	fetch(pingUrl)
+	let ping = api + serverIP + ":" + serverPort
+	fetch(ping)
 		.then(response => response.json())
 		.then(data => {
 			let key = Object.keys(data.bukkit_extra.pgm)[0]
