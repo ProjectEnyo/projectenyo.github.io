@@ -13,5 +13,8 @@ window.addEventListener('load', function() {
 			document.getElementById("players-online").innerHTML = players + "/" + maxPlayers
 			document.getElementById("current-map").innerHTML = map
 		})
-		.catch(error => console.log(error))
+		.catch(error => {
+			document.getElementById("online-status").innerHTML = "Offline"
+			console.log(error)
+		})
 })
