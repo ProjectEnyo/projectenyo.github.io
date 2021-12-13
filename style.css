@@ -4,6 +4,12 @@ a:hover {
 span.op {
 	color: DarkOrange;
 }
+span.online {
+	color: Green;
+}
+span.offline {
+	color: DarkRed;
+}
 @media (prefers-color-scheme: dark) {
 	body {
 		background: Black;
@@ -17,5 +23,11 @@ span.op {
 	}
 	span.op {
 		color: Orange;
+	}
+	span.online {
+		color: Lime;
+	}
+	span.offline {
+		color: Red;
 	}
 }

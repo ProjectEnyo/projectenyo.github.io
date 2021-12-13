@@ -8,7 +8,7 @@ window.addEventListener('load', function() {
 		.then(response => response.json())
 		.then(data => {
 			let key = Object.keys(data.bukkit_extra.pgm)[0]
-			document.getElementById("online-status").innerHTML = data.online ? "Online" : "Offline"
+			document.getElementById("online-status").innerHTML = data.online ? "<span class=\"online\">Online</span>" : "<span class=\"offline\">Offline</span>"
 			document.getElementById("players-online").innerHTML = data.players.online + "/" + data.players.max
 			document.getElementById("current-map").innerHTML = data.bukkit_extra.pgm[key].map.name
 		})
