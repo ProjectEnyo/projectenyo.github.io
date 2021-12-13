@@ -13,7 +13,7 @@ window.addEventListener('load', function() {
 			document.getElementById("current-map").innerHTML = data.bukkit_extra.pgm[key].map.name
 		})
 		.catch(error => {
-			document.getElementById("online-status").innerHTML = "Offline"
+			document.getElementById("online-status").innerHTML = "<span class=\"offline\">Offline</span>"
 			console.log(error)
 		})
 })
