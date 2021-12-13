@@ -8,7 +8,7 @@ span.online {
 	color: Green;
 }
 span.offline {
-	color: DarkRed;
+	color: Red;
 }
 @media (prefers-color-scheme: dark) {
 	body {
