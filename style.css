@@ -2,7 +2,7 @@ a:hover {
 	text-decoration: none;
 }
 span.op {
-	color: DarkOrange;
+	color: Gray;
 }
 span.online {
 	color: LimeGreen;
@@ -22,7 +22,7 @@ span.offline {
 		color: MediumPurple;
 	}
 	span.op {
-		color: Orange;
+		color: Silver;
 	}
 	span.online {
 		color: Lime;
