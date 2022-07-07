@@ -7,6 +7,16 @@ span.online {
 span.offline {
 	color: Red;
 }
+table,
+td {
+	border: 1px solid Black;
+}
+thead,
+tfoot {
+	background-color: Black;
+	color: White;
+}
+
 @media (prefers-color-scheme: dark) {
 	body {
 		background: Black;
@@ -26,5 +36,14 @@ span.offline {
 	}
 	span.offline {
 		color: Red;
+	}
+	table,
+	td {
+		border: 1px solid DarkGray;
+	}
+	thead,
+	tfoot {
+		background-color: White;
+		color: Black;
 	}
 }
