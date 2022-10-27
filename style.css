@@ -1,6 +1,12 @@
 span.op {
 	color: DarkOrange;
 }
+span.vip {
+	color: LimeGreen;
+}
+span.mapmaker {
+	color: DarkBlue;
+}
 span.online {
 	color: LimeGreen;
 }
@@ -30,6 +36,12 @@ tfoot {
 	}
 	span.op {
 		color: Orange;
+	}
+	span.vip {
+		color: Lime;
+	}
+	span.mapmaker {
+		color: Blue;
 	}
 	span.online {
 		color: Lime;
