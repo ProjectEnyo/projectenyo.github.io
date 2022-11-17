@@ -1,3 +1,6 @@
+main {
+	max-width: 70ch;
+}
 span.op {
 	color: DarkOrange;
 }
