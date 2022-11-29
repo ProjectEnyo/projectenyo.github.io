@@ -25,6 +25,9 @@ tfoot {
 	background-color: Black;
 	color: White;
 }
+blockquote {
+	font-style: italic;
+}
 
 @media (prefers-color-scheme: dark) {
 	body {
