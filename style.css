@@ -1,68 +1,53 @@
+body {
+	background: #111;
+	color: White;
+	background-image: url(img/bg.png);
+}
 main {
 	max-width: 70ch;
 	margin: auto;
 }
+p {
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: serif;
+}
+a {
+	color: LightSkyBlue;
+}
+a:visited {
+	color: MediumPurple;
+}
 span.op {
-	color: DarkOrange;
+	color: Orange;
 }
 span.vip {
-	color: LimeGreen;
+	color: Lime;
 }
 span.mapmaker {
-	color: DarkBlue;
+	color: Blue;
 }
 span.online {
-	color: LimeGreen;
+	color: Lime;
 }
 span.offline {
 	color: Red;
 }
 table,
 td {
-	border: 1px solid Black;
+	border: 1px solid DarkGray;
 }
 thead,
 tfoot {
-	background-color: Black;
-	color: White;
+	background-color: White;
+	color: Black;
 }
 blockquote {
 	font-style: italic;
 }
-
-@media (prefers-color-scheme: dark) {
-	body {
-		background: Black;
-		color: White;
-	}
-	a {
-		color: LightSkyBlue;
-	}
-	a:visited {
-		color: MediumPurple;
-	}
-	span.op {
-		color: Orange;
-	}
-	span.vip {
-		color: Lime;
-	}
-	span.mapmaker {
-		color: Blue;
-	}
-	span.online {
-		color: Lime;
-	}
-	span.offline {
-		color: Red;
-	}
-	table,
-	td {
-		border: 1px solid DarkGray;
-	}
-	thead,
-	tfoot {
-		background-color: White;
-		color: Black;
-	}
+img.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
 }
