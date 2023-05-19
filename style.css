@@ -6,7 +6,7 @@ main {
 	max-width: 600px;
 	margin: auto;
 }
-p {
+p, td, li {
 	font-family: sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -18,20 +18,15 @@ a {
 a:visited {
 	color: MediumPurple;
 }
-span.op {
-	color: Orange;
-}
-span.vip {
-	color: Lime;
-}
-span.mapmaker {
-	color: Blue;
-}
 span.online {
 	color: Lime;
 }
 span.offline {
 	color: Red;
+}
+.tooltip {
+	text-decoration: underline dotted;
+	cursor: help;
 }
 table,
 td {
@@ -42,6 +37,9 @@ tfoot {
 	background-color: White;
 	color: Black;
 }
+summary {
+	cursor: pointer;
+}
 blockquote {
 	font-style: italic;
 }
@@ -51,4 +49,7 @@ img.banner {
 	margin-right: auto;
 	height: auto;
 	width: 100%;
+}
+section {
+	overflow: auto;
 }
