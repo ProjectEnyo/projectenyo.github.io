@@ -53,3 +53,7 @@ img.banner {
 section {
 	overflow: auto;
 }
+span.address {
+	float: right;
+	font-family: sans-serif;
+}
