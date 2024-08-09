@@ -25,6 +25,14 @@ a:visited {
 a:active {
 	color: #ff0;
 }
+nav a:link {
+	color: White;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav a:hover {
+	color: #ccc;
+}
 span.online {
 	color: Lime;
 }
