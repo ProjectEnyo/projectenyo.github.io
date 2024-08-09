@@ -1,7 +1,7 @@
 body {
 	background-color: #222;
-	background-image: url("img/bg.png");
-	color: White;
+	background-image: url('img/bg.png');
+	color: #e0d0d0;
 }
 main {
 	max-width: 600px;
@@ -13,11 +13,17 @@ p, td, li {
 h1,h2,h3,h4,h5,h6 {
 	font-family: serif;
 }
-a {
-	color: LightSkyBlue;
+a:link {
+	color: #aaf;
+}
+a:hover {
+	color: White;
 }
 a:visited {
-	color: MediumPurple;
+	color: #aaa;
+}
+a:active {
+	color: #ff0;
 }
 span.online {
 	color: Lime;
