@@ -1,5 +1,6 @@
 body {
-	background: #111 url("img/bg.png");
+	background-color: #222;
+	background-image: url("img/bg.png");
 	color: White;
 }
 main {
