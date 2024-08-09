@@ -37,6 +37,9 @@ a:visited {
 a:active {
 	color: #ff0;
 }
+a:link.current {
+	text-decoration: underline;
+}
 nav a:link {
 	color: White;
 	text-decoration: none;
