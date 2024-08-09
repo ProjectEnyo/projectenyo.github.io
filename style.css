@@ -7,6 +7,9 @@ main {
 	max-width: 600px;
 	margin: auto;
 }
+footer {
+	background-color: #111;
+}
 p, td, li {
 	font-family: sans-serif;
 }
