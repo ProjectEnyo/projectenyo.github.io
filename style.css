@@ -36,6 +36,12 @@ nav a:link {
 nav a:hover {
 	color: #ccc;
 }
+nav a:visited{
+	color: White;
+}
+nav a:active{
+	color: #ccc;
+}
 span.online {
 	color: Lime;
 }
