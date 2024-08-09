@@ -30,9 +30,11 @@ main {
 footer {
 	background-color: #111;
 	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-footer hr {
-	border: 0px;
+footer p {
+	margin: 0px;
 }
 p, td, li {
 	font-family: sans-serif;
