@@ -16,16 +16,12 @@ header h1 {
 	float: left;
 	color: White;
 }
-nav {
-	float: left;
-}
-nav p {
-	margin-left: 20px;
+nav#main {
+	float: right;
 }
 div#center {
 	margin: auto;
 	width: 600px;
-	text-align: left;
 }
 main {
 	max-width: 600px;
