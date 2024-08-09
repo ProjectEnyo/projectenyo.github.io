@@ -38,9 +38,6 @@ a:visited {
 a:active {
 	color: #ff0;
 }
-a:link.current {
-	text-decoration: underline;
-}
 nav a:link {
 	color: White;
 	text-decoration: none;
@@ -53,6 +50,13 @@ nav a:visited{
 	color: White;
 }
 nav a:active{
+	color: #ccc;
+}
+nav a:link.current {
+	text-decoration: underline;
+}
+nav a:hover.current {
+	text-decoration: underline;
 	color: #ccc;
 }
 span.online {
