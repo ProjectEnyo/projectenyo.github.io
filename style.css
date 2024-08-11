@@ -12,20 +12,28 @@ header {
 	border-bottom: 3px solid #000;
 }
 header h1 {
-	margin: 0px;
-	float: left;
+	margin: auto 0px;
 	color: White;
+	@media screen and (max-width: 383px) {
+		font-size: 1.5em;
+	}
 }
-nav#main {
-	float: right;
-}
+
 div#center {
+	display: flex;
+	justify-content: space-between;
 	margin: auto;
 	width: 600px;
+	@media screen and (max-width: 600px) {
+		width: 100%;
+	}
 }
 main {
 	max-width: 600px;
 	margin: auto;
+	@media screen and (max-width: 600px) {
+		width: 100%;
+	}
 }
 footer {
 	background-color: #111;
