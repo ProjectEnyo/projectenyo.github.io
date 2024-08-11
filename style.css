@@ -1,8 +1,17 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
 body {
 	background-color: #222;
 	background-image: url('img/bg.png');
 	color: #e0d0d0;
 	margin: 0px;
+	display: flex;
+	flex-direction: column;
 }
 header {
 	background-color: #555;
@@ -29,8 +38,9 @@ div#center {
 	}
 }
 main {
+	flex: 1;
 	max-width: 600px;
-	margin: auto;
+	margin: 0px auto;
 	@media screen and (max-width: 600px) {
 		width: 100%;
 	}
