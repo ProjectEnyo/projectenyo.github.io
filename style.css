@@ -133,3 +133,11 @@ span.address {
 	float: right;
 	font-family: sans-serif;
 }
+span.brott:before {
+	content: url(https://minotar.net/helm/6968cbdec2b7479ca8daf33f109f013b/16.png) / "Brottweiler";
+	margin: 0 0.2em;
+}
+span.miicro:before {
+	content: url(https://minotar.net/helm/df12d4ae95ee4ed3a9fc0a89fcb77ae2/16.png) / "miicro";
+	margin: 0 0.2em;
+}
