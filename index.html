@@ -6,6 +6,7 @@
 		<title>Project Enyo — Minecraft Like it’s 1999</title>
 		<link rel="icon" type="image/x-icon" href="favicon.png">
 		<link rel="stylesheet" href="style.css">
+		<script src="script.js" async></script>
 	</head>
 	<body>
 		<header>
@@ -50,6 +51,32 @@
 					<li>Steam: <a href="https://steamcommunity.com/groups/ProjectEnyo">steamcommunity.com/groups/ProjectEnyo</a></li>
 					<li>Discord: <a href="https://discord.gg/WKJkgdg">discord.gg/WKJkgdg</a></li>
 				</ul>
+			</section>
+			<section>
+				<h2>Server Information</h2>
+				<p>
+					If there is a Minecraft server running, the online status will show up here.
+				</p>
+				<table>
+					<tbody>
+						<tr>
+							<td><b>Address</b></td>
+							<td><code>mc.projectenyo.eu</code></td>
+						</tr>
+						<tr>
+							<td><b>Status</b></td>
+							<td id="online-status"> - </td>
+						</tr>
+						<tr>
+							<td><b>Players</b></td>
+							<td id="players-online"> - </td>
+						</tr>
+						<tr>
+							<td><b><span class="tooltip" title="Only shows on PGM event.">PGM map</span></b></td>
+							<td id="current-map"> - </td>
+						</tr>
+					</tbody>
+				</table>
 			</section>
 		</main>
 		<footer>
