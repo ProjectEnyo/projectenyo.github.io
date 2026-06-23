@@ -143,5 +143,4 @@ span.miicro:before {
 }
 a.ext-link::after {
 	content: url('img/icons/link.png') / "link";
-	margin: 0 0.2em;
 }
