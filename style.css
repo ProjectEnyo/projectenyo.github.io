@@ -7,7 +7,7 @@ html, body {
 body {
 	background-color: #222;
 	background-image: url('img/bg.png');
-	color: #e0d0d0;
+	color: #E0D0D0;
 	margin: 0px;
 	display: flex;
 	flex-direction: column;
@@ -55,42 +55,35 @@ footer p {
 p, td, li, small {
 	font-family: sans-serif;
 }
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: serif;
 	margin-bottom: 5px;
 }
 a:link {
-	color: #aaf;
+	color: #AAF;
 }
 a:hover {
 	color: White;
 }
 a:visited {
-	color: #aaa;
+	color: #AAA;
 }
 a:active {
-	color: #ff0;
+	color: #FF0;
 }
 nav a:link {
 	color: White;
 	text-decoration: none;
 	font-weight: bold;
 }
-nav a:visited{
+nav a:visited {
 	color: White;
 }
-nav a:hover {
-	color: #ccc;
+nav a:hover, nav a:active, nav a:hover.current {
+	color: #CCC;
 }
-nav a:active{
-	color: #ccc;
-}
-nav a:link.current {
+nav a:link.current, nav a:hover.current {
 	text-decoration: underline;
-}
-nav a:hover.current {
-	text-decoration: underline;
-	color: #ccc;
 }
 span.online {
 	color: Lime;
@@ -104,12 +97,10 @@ span.offline {
 	text-decoration: underline dotted;
 	cursor: help;
 }
-table,
-td {
+table, td {
 	border: 1px solid DarkGray;
 }
-thead,
-tfoot {
+thead, tfoot {
 	background-color: White;
 	color: Black;
 }
